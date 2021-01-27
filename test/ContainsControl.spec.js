@@ -9,8 +9,7 @@ describe('Login', () => {
     })
 })
 
-const wrapper = mount (Login)
-expect(wrapper.name()).toBe('Login')
+
 
 
   

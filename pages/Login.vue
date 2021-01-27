@@ -1,15 +1,9 @@
-<<<<<<< HEAD
-
     <template>
     <v-container>
         <v-row>
             <v-col cols="2" style="margin-top: 12px; margin-left: 18px"><span>{{ userName }}</span></v-col>
-=======
-<template>
-    <v-container>
-        <v-row>
-            <v-col cols="2" style="margin-top: 12px; margin-left: 18px">Adınız *</v-col>
->>>>>>> 5d744ae1c29cc83244101935165ab121e4318158
+
+
             <v-col cols="4" style="margin-left: -118px">
                 <v-textarea
                         solo
@@ -105,18 +99,17 @@
                 ></v-textarea>
             </v-col>
         </v-row>
-<<<<<<< HEAD
+
         
     </v-container>
-    
-=======
-    </v-container>
->>>>>>> 5d744ae1c29cc83244101935165ab121e4318158
+
+
 </template>
 
 <script>
     export default {
-<<<<<<< HEAD
+
+
         
         name: "Login",
         props:{
@@ -133,14 +126,7 @@
       }
  }
 
-=======
-        name: "Login",
-        data() {
-            return {
-                ex4: true,
-            }
-        },
->>>>>>> 5d744ae1c29cc83244101935165ab121e4318158
+
     }
 </script>
 
